@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=IBM+Plex+Mono&display=swap');
+
+#all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 350px;
+  height: 380px;
+  border-radius: 30px;
+  gap: 15px;
+  color: #fff;
+  background: linear-gradient(300deg, #ff0057, #001, #00a4ff);
+  background-size: 120% 120%;
+  animation: gradient-animation 12s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body {
+  background-size: 100%;
+  background-image: url(./images/3607424.jpg);
+}
+
+.tittle{
+  font-family: IBM Plex Mono;
+  margin: 20px;
+}
+
+section {
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input{
+  border-radius: 5px;
+  flex-direction: row;
+  text-align: center;
+  width: 250px;
+  height: 30px;
+  font-size: 16px;
+  border: purple;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.356);
+}
+
+#button{
+  font-family: IBM Plex Mono;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.595);
+  margin: 0px;
+  border-radius: 15px;
+  border: purple;
+  width: 120px;
+  height: 40px;
+  cursor: pointer;
+}
+
+#button:hover{
+  background-color: rgba(71, 0, 71, 0.308);
+}
+
+a {
+  text-decoration: none;
+  margin-bottom: 3px;
+  color: #001;
+}
+
+.font {
+  font-family: IBM Plex Mono;
+  -webkit-text-fill-color: #fff;
+  font-size: 18px;
+}
+
+.fonttwo{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  font-size: 16px;
+}
+
+.fonttwo:hover{
+  color: rgb(210, 162, 210)
+}
+
+#third{
+  flex-direction: column;
+}

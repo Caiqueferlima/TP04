@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylerg.css">
+    <title>Register page</title>
+</head>
+
+<body>
+    <section>
+        <div id="all">
+            <div>
+                <h1 class="tittle">Register</h1>
+            </div>
+            <div>
+                <form action="" method="post">
+                    <div id="container">
+                        <div>
+                            <label for="name" class="font">Full name</label><br>
+                            <input type="text" autocomplete="off" class="input" user="name" id="name"><br>
+                        </div>
+                        <div>
+                            <label for="birth" class="font">Birth date</label><br>
+                            <input type="text" required id="birth" class="input" placeholder="" onfocus="(this.type = 'date')"user="birth"><br>
+                        </div>
+                        <div>
+                            <label for="registration" class="font">Registration number</label><br>
+                            <input type="number" required id="registration" name="registration" class="input"><br>
+                        </div>
+                        <div>
+                            <label for="password" class="font">Password</label><br>
+                            <input type="password" id="password" class="input" name="password" placeholder="Create a new Password" required><br>
+                        </div>
+                        <div>
+                            <label for="again"></label>
+                            <input type="password" id="again" class="input" name="password" placeholder="Type this password again" required><br>
+                        </div>
+                        <div>
+                            <label for="select" class="font">Select your course</label><br>
+                            <select name="Select your course" required id="select">
+                                <option value=""></option>
+                                <option value="">Computer Engineering</option>
+                                <option value="">Computer Science</option>
+                                <option value="">Information Systems</option>
+                                <option value="">Software Engineering</option>
+                            </select>
+                        </div>
+                        <label class="font">Gender</label>
+                        <div id="gender">
+                            <div>
+                                <input type="radio" name="gender" class="sex" value="M">
+                                <label for="masc" class="font2">Masculine</label><br>
+                            </div>
+                            <div>
+                                <input type="radio" name="gender" class="sex" value="F">
+                                <label for="fem" class="font2">Feminine</label><br>
+                            </div>
+                            <div>
+                                <input type="radio" name="gender" class="sex">
+                                <label for="other" class="font2">Other</label>
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+            <div id="footer">
+                <div id="checkbox">
+                    <div>
+                        <input type="checkbox" name="terms" id="">
+                        <label for="terms" class="font2">I read the terms</label><br>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        <label for="agree" class="font2">I agree with the terms</label>
+                    </div>
+                </div>
+                    </form>
+                <div>
+                    <a href="index.html" class="link">Already have an account?</a><br>
+                    <input type="submit" value="Next step" class="link">
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
